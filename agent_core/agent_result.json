@@ -1,0 +1,5 @@
+{
+  "goal": "admin 계정이 공격받고 있습니다. 더 이상 로그인하지 못하게 해 주세요.",
+  "tool": "lock_account",
+  "result": "held"
+}

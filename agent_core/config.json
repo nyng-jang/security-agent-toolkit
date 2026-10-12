@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 {
   "model": "gemini-3.5-flash-lite",
   "approve_severity": "high",
   "report_folder": "reports",
   "webhook_url": "http://127.0.0.1:5001/alert"
+=======
+{
+  "model": "gemini-3.5-flash-lite",
+  "approve_severity": "high",
+  "report_folder": "reports",
+  "webhook_url": "http://127.0.0.1:5001/alert"
+>>>>>>> ac2f8b0abbb2ca6db96c8ff23f2c7d7ce17a49ba
 }

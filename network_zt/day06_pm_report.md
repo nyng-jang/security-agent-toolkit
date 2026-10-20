@@ -110,8 +110,10 @@ CONTAINER ID   IMAGE         COMMAND    CREATED          STATUS                 
 
 - (다) 🔍 `docker logs web` 출력에서 `GET /` 줄 하나를 붙여 넣고, 접속자 주소 · 시각 · 요청 · 응답 번호를 찾아 적어 주세요.
   - 쓸 내용: ① `GET /` 줄 ② 접속자 주소 · 시각 · 요청 · 응답 번호 네 가지
-  - 답:  172.17.0.1 - - [19/Oct/2026:06:11:45 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36" "-"
-
+  - 답:  
+  ```
+  172.17.0.1 - - [19/Oct/2026:06:11:45 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36" "-"
+  ```
   접속자 주소: 172.17.0.1
 
   시각: 19/Oct/2026:14:31:05
@@ -182,4 +184,4 @@ da99c073f91d   nginx:1.28   "/docker-entrypoint.…"   About a minute ago   Up A
 
 - (가) `git status` 를 쳤을 때 빨간 목록에 줄이 몇 개였는지, 그 가운데 `.env` · `.venv` 가 있었는지 적어 주세요.
   - 쓸 내용: ① 줄 수 ② .env · .venv 가 있었는지
-  - 답:
+  - 답: 9줄
